@@ -1,0 +1,22 @@
+.home--services {
+  margin-top: 90px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.home--services > h2 {
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 69px;
+  color: #242527;
+}
+.home--services-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.home--services>svg{
+    margin-top: 80px;
+}
+
+

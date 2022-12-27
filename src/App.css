@@ -1,0 +1,11 @@
+:root {
+  --lexend: "Lexend", sans-serif;
+  --Montserrat: "Montserrat", sans-serif;
+  --poppins: "Poppins", sans-serif;
+}
+.app--home {
+  margin-top: -250px;
+}
+.app--navbar {
+  z-index: 1111;
+}

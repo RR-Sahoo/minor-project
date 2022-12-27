@@ -1,0 +1,44 @@
+.card,
+.card-img {
+  width: 300px;
+  height: 200px;
+  border-radius: 44px;
+  
+}
+.card {
+  background: linear-gradient(
+    167.57deg,
+    rgba(46, 51, 90, 0.26) -4.68%,
+    rgba(28, 27, 51, 0.26) 95.45%
+  );
+  box-shadow: inset 0px 1px 0px #ffffff;
+  backdrop-filter: blur(25px);
+  border: none;
+  margin-bottom: 30px;
+}
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  border-radius: 44px;
+}
+.card-title {
+  font-family: var(--lexend);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+}
+.card-button {
+  background: rgba(0, 0, 0, 0.07);
+  border: 1px solid #ffffff;
+  border-radius: 35px;
+  font-family: var(--lexend);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  padding: 10px;
+}

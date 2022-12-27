@@ -1,0 +1,86 @@
+.home--local-expert {
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background: url("../Images/Vector\ 3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home--local-expert-container {
+  display: flex;
+  justify-content: space-around;
+}
+.home--local-expert-left > img {
+  width: 600px;
+  margin-right: 88px;
+}
+.home--local-expert-right {
+  margin-top: 32px;
+}
+.home--local-expert-right > h1 {
+  font-family: var(--lexend);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 80px;
+}
+.home--local-expert-right > p {
+  font-family: var(--lexend);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 45px;
+  color: #373737;
+  margin-top: 57px;
+}
+.home--local-expert-right-icons {
+  display: flex;
+  flex-direction: column;
+}
+.home--local-expert-right-icons-upper,
+.home--local-expert-right-icons-lower {
+  display: flex;
+  justify-content: space-between;
+}
+.home--local-expert-right-icons-lower {
+  margin-top: 50px;
+}
+.home--local-expert-right-icon {
+  display: flex;
+  align-items: center;
+}
+.home--local-expert-right-icon > p {
+  margin: 0px;
+  margin-left: 15px;
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #242527;
+}
+.home--local-expert-right-icon i {
+  font-size: 25px;
+  color: #ffffff;
+}
+.home--local-expert-right-icon-circle1 {
+  background: rgba(35, 135, 192, 0.3);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home--local-expert-right-icon-circle2 {
+  background: #2387c0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shield {
+  margin-right: 45px;
+}
+.home--local-expert > svg {
+  margin-top: 80px;
+}

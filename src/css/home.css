@@ -1,0 +1,88 @@
+.home{
+  background: #F5F5F5;
+}
+.home--img {
+  background-image: url("../Images/lance-anderson-QdAAasrZhdk-unsplash.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home--img > img {
+  height: 100vh;
+  width: 100%;
+  z-index: -999;
+}
+.home--img_search {
+  display: flex;
+  align-items: center;
+}
+.home--img {
+  flex: 0 0 100%;
+}
+.home--search {
+  margin-top: -205px;
+  margin-left: calc(-28% - (30% / 2));
+}
+.home--search > h1 {
+  font-family: var(--Montserrat);
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 141.9%;
+}
+.home--search_box {
+  background: linear-gradient(134.17deg, #eef1f5 4.98%, #e6e9ef 94.88%);
+  box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.75),
+    inset 5px 5px 10px rgba(166, 180, 200, 0.75);
+  border-radius: 40px;
+  width: 500px;
+  height: 50px;
+  border: none;
+  padding: 15px;
+}
+.home--search_box::placeholder {
+  font-family: var(--Montserrat);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 133.4%;
+  letter-spacing: 0.005em;
+  color: #ff2359;
+}
+.home--search_box:focus,
+.home--search_box:focus-visible {
+  border: none;
+  box-shadow: -7px -6px 15px rgb(255 255 255 / 75%),
+    4px 8px 10px rgb(166 180 200 / 75%);
+}
+.home--achievement {
+  width: 700px;
+  background: linear-gradient(
+    180deg,
+    #12b7b6 16.67%,
+    rgba(18, 183, 182, 0) 100%
+  );
+  filter: drop-shadow(0px 10px 15px rgba(1, 115, 153, 0.2));
+  display: flex;
+  margin-top: -40px;
+  margin-left: 28%;
+  justify-content: space-around;
+  padding-top: 27px;
+  
+}
+.home--achievement h2 {
+  font-family: var(--poppins);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+}
+.home--achievement h2 > span {
+  color: #ff2359;
+}
+.home--achievement p {
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+}

@@ -1,5 +1,6 @@
 import React from "react";
-import "./login.css";
+import "../css/login.css";
+import login_image from "../Images/Login-Image.jpg";
 function Login() {
   return (
     <div className="login">
@@ -94,7 +95,7 @@ function Login() {
         </form>
       </div>
       <div className="login--right_side">
-        <img src="Images/Login-Image.jpg" alt="" className="login--image" />
+        <img src={login_image} alt="" className="login--image" />
       </div>
     </div>
   );

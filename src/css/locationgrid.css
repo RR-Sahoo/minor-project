@@ -1,0 +1,21 @@
+.home--location {
+  margin-top: 50px;
+  background: #FFFFFF
+}
+.home--location > h1 {
+  font-family: var(--lexend);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  margin-left: 60px;
+}
+.home--locationgrid{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+   

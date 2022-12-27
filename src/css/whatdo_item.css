@@ -1,0 +1,50 @@
+.whatdo--item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+}
+.whatdo--item-icon {
+  width: 226px;
+  height: 226px;
+  background: #ededed;
+  box-shadow: inset -20px -20px 50px #ffffff, inset 20px 20px 50px #cdcdcd;
+  border-radius: 166px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whatdo--item-icon-circle {
+  width: 160px;
+  height: 160px;
+  background: #ededed;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.18),
+    inset 20px 20px 50px rgba(255, 255, 255, 0.25),
+    inset -20px -20px 50px #cdcdcd, inset 20px 20px 50px #ffffff;
+  border-radius: 107px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whatdo--item-icon-circle > img {
+  width: 80px;
+}
+.whatdo--item-desc {
+  margin-top: 45px;
+  text-align: center;
+  font-family: var(--Montserrat);
+}
+.whatdo--item-desc > h2 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 133.4%;
+  letter-spacing: 0.005em;
+  color: #1f1f1f;
+}
+.whatdo--item-desc > p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150.4%;
+  letter-spacing: 0.03em;
+  margin-top: 25px;
+}
