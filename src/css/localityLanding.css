@@ -1,0 +1,104 @@
+.landing-page {
+  background: #f5f5f5;
+  margin-top: -22px;
+}
+.landing-page--upper > .card {
+  border: none;
+  margin-top: 73px;
+}
+.landing-page--upper > .card > .card-img {
+  height: 500px;
+  border-radius: 0px;
+}
+.landing-page--upper > .card > .card-img-overlay > .card-content {
+  margin-top: 140px;
+  width: 669px;
+  height: 220px;
+}
+.landing-page--upper > .card > .card-img-overlay > .card-content > .card-title {
+  font-family: var(--lora);
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 141.9%;
+  text-align: center;
+  color: #434343;
+}
+.landing-page--upper > .card > .card-img-overlay > .card-content > .card-text {
+  margin-top: 17px;
+  font-family: var(--Montserrat);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150.4%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #1b1b1b;
+}
+.landing-page--form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.landing-page--search {
+  background: #f9f9f9;
+  width: 700px;
+  height: 60px;
+  box-shadow: inset -10px -10px 20px #ffffff,
+    inset 10px 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 42.5px;
+  border: none;
+  text-indent: 53px;
+  font-family: var(--Montserrat);
+  font-size: 22px;
+}
+.landing-page--search:focus-visible {
+  outline: none;
+}
+.landing-page--search::placeholder {
+  font-family: var(--Montserrat);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 141.9%;
+}
+.landing-page--search-btn {
+  width: 60px;
+  height: 60px;
+  margin-left: 70px;
+  background: #f9f9f9;
+  box-shadow: inset -10px -10px 20px #ffffff,
+    inset 10px 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 71.5px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.landing-page--search-btn > div {
+  width: 55px;
+  height: 55px;
+  background: #f3f3f3;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.18),
+    inset 20px 20px 50px rgba(255, 255, 255, 0.25),
+    inset -20px -20px 50px #cdcdcd, inset 20px 20px 50px #ffffff;
+  border-radius: 166px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing-page--search-btn > div > i {
+  color: #ff2359;
+  font-size: 20px;
+}
+.landing-page--cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.landing-page--cards-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 100px;
+  row-gap: 50px;
+}

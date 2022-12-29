@@ -1,13 +1,14 @@
 import "./App.css";
-import Home from "./components/Home";
-import Login from "./components/Login";
-import Navbar from "./components/Navbar";
+// import Home from "./components/Home";
+import LocalityLanding from "./components/LocalityLanding";
+// import Login from "./components/Login";
 
 function App() {
   return (
     <div className="app">
-      <Home/>
+      {/* <Home/> */}
       {/* <Login/> */}
+      <LocalityLanding/>
     </div>
   );
 }
