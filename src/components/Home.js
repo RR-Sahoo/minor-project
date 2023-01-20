@@ -6,7 +6,7 @@ import Locationgrid from "./Locationgrid";
 import Navbar from "./Navbar";
 import Ourstory from "./Ourstory";
 import Process from "./Process";
-import RecentProject from "./RecentProject.JS";
+import RecentProject from "./RecentProject.js";
 import Services from "./Services";
 import Whatdo from "./Whatdo";
 function Home() {
@@ -55,14 +55,13 @@ function Home() {
           </p>
         </div>
       </div>
-      <Services/>
-      <Explore/>
-      <Localexpert/>
-      <Process/>
-      <Locationgrid/>
-      <Whatdo/>
-      <Ourstory/>
-      
+      <Services />
+      <Explore />
+      <Localexpert />
+      <Process />
+      <Locationgrid />
+      <Whatdo />
+      <Ourstory />
     </div>
   );
 }
