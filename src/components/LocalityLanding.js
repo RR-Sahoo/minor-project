@@ -7,19 +7,19 @@ function LocalityLanding() {
   return (
     <div className="landing-page">
       <Navbar />
-      <div className="landing-page--upper">
-        <div class="card text-bg-dark">
+      <div className="landing-page--upper max-width:500px">
+        <div className="card text-bg-dark">
           <img
             src={require("../Images/annie-spratt-ax-KPVfTYAs-unsplash.jpg")}
             class="card-img"
             alt="..."
           />
-          <div class="card-img-overlay">
+          <div className="card-img-overlay">
             <div className="card-content">
-              <h5 class="card-title">
+              <h5 className="card-title">
                 Best Deals Guranteed on your favourite localities by us
               </h5>
-              <p class="card-text">
+              <p className="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisc elit, sed do
                 eiusmod tempor incididunt ut labore et.
               </p>

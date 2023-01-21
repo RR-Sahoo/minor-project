@@ -32,7 +32,7 @@ function Navbar(props) {
             </linearGradient>
           </defs>
         </svg>
-        <h1>TheHome</h1>
+        <h1>TheHome.com</h1>
       </div>
       <div className="navbar--buttons">
         <div className="navbar--links">
@@ -46,13 +46,19 @@ function Navbar(props) {
             <Link to="/localities">
               <li>Localities</li>
             </Link>
+            <Link to="/help">
+              <li>Help</li>
+            </Link>
             <Link href="">
-              <li>Developers</li>
+              <li>Advertiser</li>
+            </Link>
+            <Link to="/login">
+              <li>Sign in</li>
             </Link>
           </ul>
         </div>
         <div className="navbar--hamburg">
-          <a href="/">
+          <a href="#">
             <svg
               width="23"
               height="20"

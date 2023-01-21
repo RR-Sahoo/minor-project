@@ -1,0 +1,9 @@
+.login--form-help {
+  padding-left: 470px;
+  padding-top: 130px;
+}
+.help-page-image {
+  background-image: url("../Images/Helpp.jpg");
+  height: 350px;
+  width: 100%;
+}
