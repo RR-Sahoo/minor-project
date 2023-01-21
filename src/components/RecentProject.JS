@@ -1,9 +1,7 @@
 import React from "react";
 
 function RecentProject() {
-  return (
-    <></>
-  );
+  return <div className="container">RecentProject</div>;
 }
 
 export default RecentProject;
