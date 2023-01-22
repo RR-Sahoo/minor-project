@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import "../css/property-landing.css";
 import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
+import LoanCalculator from "./LoanCalculator";
 function PropertyLanding() {
   return (
     <>
@@ -129,6 +130,40 @@ function PropertyLanding() {
               />
             </div>
           </Zoom>
+        </div>
+        <div className="price-breakdown">
+          <div className="header">
+            <h1>Price Breakdown</h1>
+          </div>
+          <div className="left-side">
+            <h3>Total Breakdown</h3>
+            <div className="price-division">
+              <div className="price-card">
+                <h3>Base Price</h3>
+                <div className="price-amount">
+                  <i class="fa-solid fa-indian-rupee-sign"></i>
+                  <p>36,00,000</p>
+                </div>
+              </div>
+              <div className="price-card">
+                <h3>Taxes & Legal Duties</h3>
+                <div className="price-amount">
+                  <i class="fa-solid fa-indian-rupee-sign"></i>
+                  <p>40,000</p>
+                </div>
+              </div>
+            </div>
+            <div className="total-price">
+              <h3>Total</h3>
+              <div className="price-amount">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <p>36,40,000</p>
+              </div>
+            </div>
+          </div>
+          <div className="right-side">
+            <LoanCalculator/>
+          </div>
         </div>
       </div>
     </>

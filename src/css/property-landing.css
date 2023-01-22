@@ -104,15 +104,94 @@
 .image-slide {
   margin-top: 70px;
 }
-.nav{
+.nav {
   display: none !important;
 }
-.react-slideshow-fadezoom-images-wrap>div{
+.react-slideshow-fadezoom-images-wrap > div {
   display: flex !important;
   justify-content: center;
   align-items: center;
   border-radius: 18px;
 }
-.react-slideshow-fadezoom-images-wrap>div img{
+.react-slideshow-fadezoom-images-wrap > div img {
   border-radius: 18px;
+}
+.price-breakdown > .header > h1 {
+  font-family: var(--lexend);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 169px;
+  color: #ff2359;
+  margin-left: 70px;
+  margin-top: 70px;
+  display: flex;
+}
+.price-breakdown > .left-side {
+  margin-left: 70px;
+  font-family: var(--Montserrat);
+  width: 800px;
+}
+.price-breakdown > .left-side > h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 141.9%;
+  color: #1f1f1f;
+  margin-top: -35px;
+}
+.price-division {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.price-card {
+  width: 300px;
+  height: 150px;
+  background: #f3f3f3;
+  box-shadow: -20px -20px 50px #ffffff, 20px 20px 50px #d2d2d2;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.price-card > h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 133.4%;
+  color: #ff2359;
+  opacity: 0.9;
+}
+ .price-amount {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+ .price-amount > i {
+  color: #ff2359;
+  font-size: 30px;
+  margin-right: 15px;
+}
+ .price-amount > p {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 133.4%;
+}
+.total-price{
+  width: 100%;
+  height: 150px;
+  background: #f3f3f3;
+  box-shadow: -20px -20px 50px #ffffff, 20px 20px 50px #d2d2d2;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.total-price>h3{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 133.4%;
+  color: #ff2359;
+  opacity: 0.9;
 }
