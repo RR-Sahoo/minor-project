@@ -1,5 +1,5 @@
-.home{
-  background: #F5F5F5;
+.home {
+  background: #f5f5f5;
 }
 .home--img {
   background-image: url("../Images/lance-anderson-QdAAasrZhdk-unsplash.jpg");
@@ -67,7 +67,6 @@
   margin-left: 28%;
   justify-content: space-around;
   padding-top: 27px;
-  
 }
 .home--achievement h2 {
   font-family: var(--poppins);
@@ -85,4 +84,19 @@
   font-size: 18px;
   line-height: 27px;
   text-align: center;
+}
+.footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.h1 {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: #ff2359;
+  text-shadow: 2px 2px 3px grey;
+}
+.h5 {
+  text-align: center;
+  padding-top: 10px;
 }

@@ -1,8 +1,46 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "../css/login.css";
+import "../css/Signup.css";
 import login_image from "../Images/Login-Image.jpg";
-function Login() {
+import { useNavigate } from "react-router-dom";
+
+function Signup(props) {
+  const navigate = useNavigate();
+
+  const backHome = () => {
+    navigate("/");
+  };
+
+  const [state, setState] = useState({
+    email: "",
+    password: "",
+    cPassword: "",
+  });
+
+  const [passMatch, setPassMatch] = useState(true);
+
+  useEffect(() => {
+    validatePassword();
+  }, [state]);
+
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+    setState((prevState) => ({
+      ...prevState,
+      [id]: value,
+    }));
+  };
+
+  const validatePassword = () => {
+    state.password === state.cPassword
+      ? setPassMatch(true)
+      : setPassMatch(false);
+  };
+
+  const createAccount = () => {
+    console.log("createAccount");
+    validatePassword();
+  };
   return (
     <div className="login">
       <div className="login--left_side">
@@ -25,12 +63,8 @@ function Login() {
         </div>
 
         <h3 className="login--title">
-          Log<span>In</span>
+          Sign<span>Up</span>
         </h3>
-        <div className="login--signup">
-          <p>Can’t log in?</p>
-          <a href="/signup">Sign up for account</a>
-        </div>
         <form className="login--form">
           <div className="mb-3">
             <label
@@ -40,11 +74,14 @@ function Login() {
               Email Address
             </label>
             <input
+              aria-label="Email"
               type="email"
               className="form-control login--email"
-              id="login-email"
-              aria-describedby="emailHelp"
+              id="email"
               placeholder="Enter the email"
+              value={state.email}
+              onChange={handleChange}
+              aria-required="true"
             />
           </div>
           <div className="mb-3">
@@ -57,9 +94,35 @@ function Login() {
             <input
               type="password"
               className="form-control login--password"
-              id="login-password"
+              id="password"
               placeholder="Enter Password"
+              value={state.password}
+              onChange={handleChange}
             />
+          </div>
+          <div className="mb-3">
+            <label
+              htmlFor="login-password"
+              className="form-label login--password_text"
+            >
+              Confirm Password
+            </label>
+            <input
+              type="cPassword"
+              className={`form-control login--password ${
+                passMatch ? "" : "input-error-border"
+              }`}
+              id="cPassword"
+              placeholder="Confirm Password"
+              onChange={handleChange}
+              value={state.cPassword}
+            />
+          </div>
+          <div className="input-error">
+            {state.password !== state.cPassword ? "" : ""}
+          </div>
+          <div className="input-error">
+            {passMatch ? "" : "Error: Passwords do not match"}
           </div>
           <div className="login--password_edit">
             <label className="login--switch_label">
@@ -79,20 +142,8 @@ function Login() {
             </a>
           </div>
           <div className="login--submit">
-            <button className="submit login--submit_button">Log In</button>
-          </div>
-          <div className="login--or">
-            <hr />
-            <h3>OR</h3>
-            <hr />
-          </div>
-
-          <div className="login--buttons">
-            <button className="login--google">
-              <i className="fa-brands fa-google"></i>Log in with Google
-            </button>
-            <button className="login--facebook">
-              <i className="fa-brands fa-facebook"></i>Log in with Facebook
+            <button className="submit login--submit_button" onClick={backHome}>
+              Sign up
             </button>
           </div>
         </form>
@@ -104,4 +155,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Signup;

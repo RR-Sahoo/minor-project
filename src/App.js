@@ -6,7 +6,7 @@ import RecentProject from "./components/RecentProject";
 import Login from "./components/Login";
 import Help from "./components/Help";
 import Signup from "./components/Signup";
-import Info from "./components/Info";
+
 
 function App() {
   return (
@@ -18,7 +18,6 @@ function App() {
           <Route path="/localities" element={<LocalityLanding />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/signup" element={<Signup />}></Route>
-          <Route path="/info" element={<Info />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
