@@ -1,14 +1,15 @@
 .landing-page {
   background: #f5f5f5;
-  margin-top: -22px;
 }
 .landing-page--upper > .card {
   border: none;
   margin-top: 73px;
+  width: 100%;
 }
 .landing-page--upper > .card > .card-img {
   height: 500px;
   border-radius: 0px;
+  width: 100%;
 }
 .landing-page--upper > .card > .card-img-overlay > .card-content {
   margin-top: 140px;
@@ -91,10 +92,10 @@
   font-size: 20px;
 }
 .landing-page--cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 .landing-page--cards-container {
   display: grid;
