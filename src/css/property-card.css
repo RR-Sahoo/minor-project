@@ -1,0 +1,109 @@
+.property-card {
+  width: fit-content;
+  height: 380px;
+  background: #f3f3f3;
+  box-shadow: -20px -20px 50px #ffffff, 20px 20px 50px #d2d2d2;
+  border-radius: 43px;
+  padding: 29px 27px;
+  display: flex;
+}
+.property-card > .left-side {
+  margin-right: 30px;
+}
+.property-card > .left-side > img {
+  width: 250px;
+  height: 320px;
+  border-radius: 28px;
+}
+.property-card > .right-side {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-family: var(--Montserrat);
+  color: #434343;
+}
+.property-card > .right-side > .company-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 133.4%;
+  letter-spacing: 0.005em;
+  color: #ff2359;
+}
+.property-card > .right-side > .house-name {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 133.4%;
+  letter-spacing: 0.005em;
+}
+.property-card > .right-side > .place {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 133.4%;
+  letter-spacing: 0.005em;
+}
+.property-card > .right-side > .price {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 133.4%;
+  letter-spacing: 0.005em;
+}
+.property-card > .right-side > .status {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 133.4%;
+  letter-spacing: 0.005em;
+  color: #ff2359;
+}
+.property-card > .right-side > .type {
+  width: 57px;
+  height: 28px;
+  border: 2px solid #ff2359;
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.12));
+  border-radius: 29px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.property-card > .right-side > .type > p {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 133.4%;
+  letter-spacing: 0.005em;
+  color: #ff2359;
+}
+.property-card > .right-side > .button {
+  width: fit-content;
+  height: 45px;
+  background: #f9f9f9;
+  box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 42.5px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.property-card > .right-side > .button > h3 {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 133.4%;
+  letter-spacing: 0.005em;
+  color: #ff2359;
+}
+.property-card > .right-side > .button > .arrow {
+  width: 45px;
+  height: 45px;
+  margin-left: 25px;
+  background: #f9f9f9;
+  box-shadow: inset -10px -10px 20px #ffffff,
+    inset 10px 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 42.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.property-card > .right-side > .button > .arrow>i{
+    font-size: 20px;
+    color: #FF2359;
+}
