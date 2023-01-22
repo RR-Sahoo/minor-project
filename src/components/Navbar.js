@@ -43,6 +43,9 @@ function Navbar(props) {
             <Link to="/projects">
               <li>Projects</li>
             </Link>
+            <Link to="/properties">
+              <li>Properties</li>
+            </Link>
             <Link to="/localities">
               <li>Localities</li>
             </Link>
